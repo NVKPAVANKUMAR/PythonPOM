@@ -1,0 +1,14 @@
+{
+  "CREDENTIALS": {
+    "USERNAME": [
+        "ADMIN",
+        "admin"
+    ],
+    "PASSWORD":[
+      "PASS",
+      "password"
+    ],
+
+    "URL": "https://demo.silverstripe.org/Security/login"
+  }
+}
