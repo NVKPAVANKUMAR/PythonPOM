@@ -9,6 +9,7 @@
       "password"
     ],
 
-    "URL": "https://demo.silverstripe.org/Security/login"
+    "URL": "https://demo.silverstripe.org/Security/login",
+    "CHROME":"Drivers/chromedriver.exe"
   }
 }

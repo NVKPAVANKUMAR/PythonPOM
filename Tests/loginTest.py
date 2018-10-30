@@ -2,7 +2,6 @@ import json
 import time
 import unittest
 
-
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
@@ -36,10 +35,10 @@ class LoginTest(unittest.TestCase):
         driver = self.driver
         data = read_json(self, "configuration/config.json")
         driver.get(data['CREDENTIALS']['URL'])
-        login = LoginPage(driver)
-        login.enter_username(data['CREDENTIALS']['USERNAME'][1])
-        login.enter_password(data['CREDENTIALS']['PASSWORD'][1])
-        login.click_login_button()
+        loginpage = LoginPage(driver)
+        loginpage.enter_username(data['CREDENTIALS']['USERNAME'][1])
+        loginpage.enter_password(data['CREDENTIALS']['PASSWORD'][1])
+        loginpage.click_login_button()
         homepage = HomePage(driver)
         homepage.click_logout_button()
         time.sleep(2)
