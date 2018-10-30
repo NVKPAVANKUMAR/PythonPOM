@@ -12,7 +12,7 @@ import HtmlTestRunner
 
 def parse_config(self, header, parameter):
     config = configparser.ConfigParser()
-    config.read('C:/Users/pavan.nemalikanti/PycharmProjects/PythonPOM/configuration/config.ini')
+    config.read('configuration/config.ini')
     return config.get(header, parameter)
 
 
@@ -26,13 +26,13 @@ class LoginTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome('C:/Users/pavan.nemalikanti/PycharmProjects/PythonPOM/Drivers/chromedriver.exe')
+        cls.driver = webdriver.Chrome('Drivers/chromedriver.exe')
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
     def test01_login_valid(self):
         driver = self.driver
-        data = read_json(self, "C:/Users/pavan.nemalikanti/PycharmProjects/PythonPOM/configuration/config.json")
+        data = read_json(self, "configuration/config.json")
         driver.get(data['CREDENTIALS']['URL'])
         login = LoginPage(driver)
         login.enter_username(data['CREDENTIALS']['USERNAME'][1])
