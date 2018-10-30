@@ -28,7 +28,7 @@ class LoginTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome(executable_path='Drivers/chromedriver.exe')
+        cls.driver = webdriver.Chrome('Drivers/chromedriver.exe')
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
@@ -69,5 +69,5 @@ if __name__ == '__main__':
     loader = unittest.TestLoader()
     suite = unittest.TestSuite((
         loader.loadTestsFromTestCase(LoginTest)))
-    runner = HtmlTestRunner.HTMLTestRunner(output='Reports', verbosity=2)
+    runner = HtmlTestRunner.HTMLTestRunner(output='test-reports', verbosity=2)
     runner.run(suite)

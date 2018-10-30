@@ -39,6 +39,14 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
+      - post:
+          # install chromedriver
+            - wget https://chromedriver.storage.googleapis.com/2.43/chromedriver_win32.zip
+            - unzip chromedriver_linux64.zip
+          # run chromedriver
+            - ./chromedriver:
+              background: true
+
 
       # run tests!
       # this example uses Django's built-in test-runner
