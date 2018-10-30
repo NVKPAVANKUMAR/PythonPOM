@@ -1,6 +1,8 @@
 import json
 import time
 import unittest
+
+
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
@@ -26,7 +28,7 @@ class LoginTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome('Drivers/chromedriver.exe')
+        cls.driver = webdriver.Chrome(executable_path='Drivers/chromedriver.exe')
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
@@ -64,5 +66,8 @@ class LoginTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(
-        testRunner=HtmlTestRunner.HTMLTestRunner(output="Reports"))
+    loader = unittest.TestLoader()
+    suite = unittest.TestSuite((
+        loader.loadTestsFromTestCase(LoginTest)))
+    runner = HtmlTestRunner.HTMLTestRunner(output='Reports', verbosity=2)
+    runner.run(suite)
