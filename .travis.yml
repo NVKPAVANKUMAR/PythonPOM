@@ -2,4 +2,4 @@
   python:
     - "3.7"
   script:
-    - python Tests\loginTest.py
+    - python -m unittest Tests\loginTest.py
