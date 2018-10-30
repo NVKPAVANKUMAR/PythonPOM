@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae170b9c-09c9-4047-b034-c6f586147cd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonPOM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonPOM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Test Results - py_test_in_loginTest_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/geckodriver" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/loginTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/loginTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,6 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/Reports" openResultsInEditor="true" userTempatePath="" />
   <component name="FUSProjectUsageTrigger">
     <session id="1051828911">
       <usages-collector id="statistics.lifecycle.project">
@@ -67,20 +65,38 @@
       <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configuration/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="25">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loginTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/loginTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+            <state relative-caret-position="109">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -128,9 +144,12 @@
         <option value="$PROJECT_DIR$/Locators/locators.py" />
         <option value="$PROJECT_DIR$/Pages/loginPage.py" />
         <option value="$PROJECT_DIR$/Pages/homePage.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/pages/homePage.py" />
+        <option value="$PROJECT_DIR$/configuration/config.json" />
         <option value="$PROJECT_DIR$/configuration/config.ini" />
         <option value="$PROJECT_DIR$/Tests/loginTest.py" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -180,6 +199,11 @@
             <path>
               <item name="PythonPOM" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPOM" type="462c0819:PsiDirectoryNode" />
+              <item name="Reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPOM" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -194,6 +218,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pavan.nemalikanti\PycharmProjects\PythonPOM" />
       <recent name="C:\Users\npava\PycharmProjects\PythonPOM\Drivers" />
     </key>
   </component>
@@ -209,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.py.test in loginTest.py">
     <configuration name="ConfigParser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPOM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,23 +253,18 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for loginTest.LoginTest.test_login_invalid" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonPOM" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;loginTest.LoginTest.test_login_invalid&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="logintests" type="tests" factoryName="Unittests">
       <module name="PythonPOM" />
@@ -304,19 +324,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.logintests" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python tests.py.test for loginTest.LoginTest" />
       <item itemvalue="Python tests.py.test for loginTest.LoginTest.test_login_valid" />
       <item itemvalue="Python tests.py.test in loginTest.py" />
       <item itemvalue="Python.ConfigParser" />
+      <item itemvalue="Python tests.Unittests for loginTest.LoginTest.test_login_invalid" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.py.test in loginTest.py" />
+        <item itemvalue="Python tests.Unittests for loginTest.LoginTest.test_login_invalid" />
         <item itemvalue="Python tests.py.test for loginTest.LoginTest.test_login_valid" />
         <item itemvalue="Python tests.py.test for loginTest.LoginTest" />
         <item itemvalue="Python.ConfigParser" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -334,52 +354,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_loginTest_LoginTest - 2018.10.29 at 14h 29m 28s.xml">
-      <configuration name="pytest for loginTest.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_loginTest_LoginTest - 2018.10.29 at 14h 31m 22s.xml">
-      <configuration name="py.test for loginTest.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_loginTest_LoginTest - 2018.10.29 at 14h 33m 42s.xml">
-      <configuration name="py.test for loginTest.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_loginTest_LoginTest - 2018.10.29 at 14h 46m 03s.xml">
-      <configuration name="py.test for loginTest.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_loginTest_LoginTest - 2018.10.29 at 14h 47m 54s.xml">
-      <configuration name="py.test for loginTest.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_loginTest_LoginTest - 2018.10.29 at 15h 09m 09s.xml">
-      <configuration name="py.test for loginTest.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_loginTest_py - 2018.10.29 at 15h 28m 05s.xml">
+    <history-entry file="py_test_in_loginTest_py - 2018.10.29 at 16h 59m 05s.xml">
       <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_loginTest_LoginTest - 2018.10.29 at 15h 30m 28s.xml">
-      <configuration name="py.test for loginTest.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_loginTest_py - 2018.10.29 at 16h 03m 46s.xml">
+    <history-entry file="py_test_in_loginTest_py - 2018.10.29 at 17h 03m 56s.xml">
       <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_loginTest_LoginTest_test_login_valid - 2018.10.29 at 16h 08m 04s.xml">
+    <history-entry file="py_test_for_loginTest_LoginTest_test_login_valid - 2018.10.29 at 18h 16m 28s.xml">
       <configuration name="py.test for loginTest.LoginTest.test_login_valid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_loginTest_LoginTest_test_login_invalid - 2018.10.29 at 18h 21m 24s.xml">
+      <configuration name="Unittests for loginTest.LoginTest.test_login_invalid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_loginTest_LoginTest_test_login_invalid - 2018.10.29 at 18h 22m 13s.xml">
+      <configuration name="Unittests for loginTest.LoginTest.test_login_invalid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_loginTest_LoginTest_test_login_invalid - 2018.10.29 at 18h 28m 09s.xml">
+      <configuration name="Unittests for loginTest.LoginTest.test_login_invalid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_loginTest_LoginTest_test_login_invalid - 2018.10.29 at 18h 38m 12s.xml">
+      <configuration name="Unittests for loginTest.LoginTest.test_login_invalid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_loginTest_LoginTest_test_login_invalid - 2018.10.29 at 18h 39m 55s.xml">
+      <configuration name="Unittests for loginTest.LoginTest.test_login_invalid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_loginTest_py - 2018.10.29 at 18h 40m 44s.xml">
+      <configuration name="py.test in loginTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_loginTest_py - 2018.10.29 at 18h 43m 03s.xml">
+      <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.8073654" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.56692916" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.61417323" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17935579" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32755905" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.8062992" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.8031496" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.61417323" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.77795273" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -388,6 +406,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32755905" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -399,6 +418,50 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/loginPage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/homePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locators/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/loginTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/loginPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -435,7 +498,7 @@
         <state>
           <caret lean-forward="true" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -443,6 +506,27 @@
     <entry file="file://$PROJECT_DIR$/Tests/test.py" />
     <entry file="file://$PROJECT_DIR$/Utility/ConfigParser.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/markupsafe/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../SelelniumPythonProject/venv/Lib/site-packages/HtmlTestRunner/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="1149" column="12" lean-forward="true" selection-start-line="1149" selection-start-column="12" selection-end-line="1149" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Reports/Test Results - py_test_in_loginTest_py.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Locators/locators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -463,30 +547,27 @@
     <entry file="file://$PROJECT_DIR$/pages/loginPage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SelelniumPythonProject/venv/Lib/site-packages/HtmlTestRunner/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/config.ini">
+    <entry file="file://$PROJECT_DIR$/configuration/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="1149" column="12" lean-forward="true" selection-start-line="1149" selection-start-column="12" selection-end-line="1149" selection-end-column="12" />
+        <state relative-caret-position="275">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/loginTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+        <state relative-caret-position="109">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>

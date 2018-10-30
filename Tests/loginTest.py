@@ -1,6 +1,9 @@
+import json
 import time
 import unittest
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
+
 from pages.homePage import HomePage
 from pages.loginPage import LoginPage
 import configparser
@@ -13,6 +16,12 @@ def parse_config(self, header, parameter):
     return config.get(header, parameter)
 
 
+def read_json(self, data_source):
+    with open(data_source) as datafile:
+        data = json.load(datafile)
+        return data
+
+
 class LoginTest(unittest.TestCase):
 
     @classmethod
@@ -21,7 +30,19 @@ class LoginTest(unittest.TestCase):
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
-    def test_login_valid(self):
+    def test01_login_valid(self):
+        driver = self.driver
+        data = read_json(self, "C:/Users/pavan.nemalikanti/PycharmProjects/PythonPOM/configuration/config.json")
+        driver.get(data['CREDENTIALS']['URL'])
+        login = LoginPage(driver)
+        login.enter_username(data['CREDENTIALS']['USERNAME'][1])
+        login.enter_password(data['CREDENTIALS']['PASSWORD'][1])
+        login.click_login_button()
+        homepage = HomePage(driver)
+        homepage.click_logout_button()
+        time.sleep(2)
+
+    def test02_login_invalid(self):
         driver = self.driver
         driver.get(parse_config(self, 'Credentials', 'TEST_URL'))
         login = LoginPage(driver)
@@ -29,7 +50,10 @@ class LoginTest(unittest.TestCase):
         login.enter_password(parse_config(self, 'Credentials', 'PASSWORD'))
         login.click_login_button()
         homepage = HomePage(driver)
-        homepage.click_logout_button()
+        try:
+            homepage.click_logout_button()
+        except NoSuchElementException:
+            print("Login Failed")
         time.sleep(2)
 
     @classmethod
@@ -41,4 +65,4 @@ class LoginTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main(
-        testRunner=HtmlTestRunner.HTMLTestRunner(output="C:/Users/pavan.nemalikanti/PycharmProjects/PythonPOM/Reports"))
+        testRunner=HtmlTestRunner.HTMLTestRunner(output="Reports"))
