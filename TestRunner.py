@@ -1,5 +1,5 @@
 import unittest
-
+import HtmlTestRunner
 # import your test modules
 from Tests import loginTest
 
@@ -12,5 +12,5 @@ suite.addTests(loader.loadTestsFromModule(loginTest))
 
 
 # initialize a runner, pass it your suite and run it
-runner = unittest.TextTestRunner(verbosity=3)
-result = runner.run(suite)
+runner = HtmlTestRunner.HTMLTestRunner(output='test-reports', verbosity=2)
+runner.run(suite)

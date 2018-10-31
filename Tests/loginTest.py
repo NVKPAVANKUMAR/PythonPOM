@@ -64,8 +64,4 @@ class LoginTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    loader = unittest.TestLoader()
-    suite = unittest.TestSuite((
-        loader.loadTestsFromTestCase(LoginTest)))
-    runner = HtmlTestRunner.HTMLTestRunner(output='test-reports', verbosity=2)
-    runner.run(suite)
+    unittest.main(verbosity=2)
