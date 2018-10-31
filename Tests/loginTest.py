@@ -3,6 +3,7 @@ import time
 import unittest
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.chrome.options import Options
 from pages.homePage import HomePage
 from pages.loginPage import LoginPage
 import configparser
@@ -25,7 +26,9 @@ class LoginTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome(executable_path='Drivers/chromedriver')
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        cls.driver = webdriver.Chrome(executable_path='Drivers/chromedriver', chrome_options=chrome_options)
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
@@ -40,7 +43,6 @@ class LoginTest(unittest.TestCase):
         homepage = HomePage(driver)
         homepage.click_logout_button()
 
-
     def test02_login_invalid(self):
         driver = self.driver
         driver.get(parse_config(self, 'Credentials', 'TEST_URL'))
@@ -53,7 +55,6 @@ class LoginTest(unittest.TestCase):
             homepage.click_logout_button()
         except NoSuchElementException:
             print("Login Failed")
-
 
     @classmethod
     def tearDownClass(cls):

@@ -49,8 +49,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python TestRunner.py
-
+            pytest -ra Tests/loginTest.py
 
       - store_artifacts:
           path: test-reports

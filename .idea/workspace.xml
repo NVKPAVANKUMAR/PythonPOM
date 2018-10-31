@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae170b9c-09c9-4047-b034-c6f586147cd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Drivers/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/loginTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/loginTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,12 +59,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="loginTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loginTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/loginTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-            </state>
+            <state relative-caret-position="-1130" />
           </provider>
         </entry>
       </file>
@@ -72,16 +70,16 @@
         <entry file="file://$PROJECT_DIR$/configuration/config.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="6" selection-start-line="4" selection-end-line="4" selection-end-column="6" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="334">
+              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -143,12 +141,12 @@
         <option value="$PROJECT_DIR$/sample.py" />
         <option value="$PROJECT_DIR$/TestRunner.py" />
         <option value="$PROJECT_DIR$/configuration/config.ini" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/Tests/loginTest.py" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="95" />
     <option name="y" value="335" />
     <option name="width" value="1285" />
@@ -232,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TestRunner">
+  <component name="RunManager" selected="Python tests.py.test in loginTest.py">
     <configuration name="TestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPOM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -331,9 +329,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in loginTest.py" />
         <item itemvalue="Python.TestRunner" />
         <item itemvalue="Python tests.Unittests for loginTest.LoginTest.test01_login_valid" />
-        <item itemvalue="Python tests.py.test in loginTest.py" />
         <item itemvalue="Python tests.Unittests for loginTest.LoginTest.test02_login_invalid" />
         <item itemvalue="Python tests.Unittests for loginTest.LoginTest" />
       </list>
@@ -353,12 +351,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="logintests - 2018.10.30 at 16h 39m 14s.xml">
-      <configuration name="logintests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_loginTest_LoginTest_test02_login_invalid - 2018.10.30 at 16h 39m 33s.xml">
-      <configuration name="Unittests for loginTest.LoginTest.test02_login_invalid" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_loginTest_py - 2018.10.30 at 16h 40m 36s.xml">
       <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
@@ -383,6 +375,12 @@
     <history-entry file="logintests - 2018.10.30 at 19h 29m 09s.xml">
       <configuration name="logintests" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_loginTest_py - 2018.10.31 at 16h 43m 15s.xml">
+      <configuration name="py.test in loginTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_loginTest_py - 2018.10.31 at 16h 46m 11s.xml">
+      <configuration name="py.test in loginTest.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -390,10 +388,10 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014641" side_tool="true" weight="0.64409447" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.64409447" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.64409447" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49926794" weight="0.72913384" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49926794" weight="0.88031495" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19692533" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -584,6 +582,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -601,24 +606,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/config.ini">
+    <entry file="file://$PROJECT_DIR$/Tests/loginTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="6" selection-start-line="4" selection-end-line="4" selection-end-column="6" />
-        </state>
+        <state relative-caret-position="-1130" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/loginTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="334">
+          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
         </state>
       </provider>
     </entry>
