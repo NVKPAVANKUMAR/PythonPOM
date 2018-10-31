@@ -1,10 +1,8 @@
 import json
 import time
 import unittest
-
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-
 from pages.homePage import HomePage
 from pages.loginPage import LoginPage
 import configparser
@@ -35,27 +33,27 @@ class LoginTest(unittest.TestCase):
         driver = self.driver
         data = read_json(self, "configuration/config.json")
         driver.get(data['CREDENTIALS']['URL'])
-        loginpage = LoginPage(driver)
-        loginpage.enter_username(data['CREDENTIALS']['USERNAME'][1])
-        loginpage.enter_password(data['CREDENTIALS']['PASSWORD'][1])
-        loginpage.click_login_button()
+        login_page = LoginPage(driver)
+        login_page.enter_username(data['CREDENTIALS']['USERNAME'][1])
+        login_page.enter_password(data['CREDENTIALS']['PASSWORD'][1])
+        login_page.click_login_button()
         homepage = HomePage(driver)
         homepage.click_logout_button()
-        time.sleep(2)
+
 
     def test02_login_invalid(self):
         driver = self.driver
         driver.get(parse_config(self, 'Credentials', 'TEST_URL'))
-        login = LoginPage(driver)
-        login.enter_username(parse_config(self, 'Credentials', 'USERNAME'))
-        login.enter_password(parse_config(self, 'Credentials', 'PASSWORD'))
-        login.click_login_button()
+        login_page = LoginPage(driver)
+        login_page.enter_username(parse_config(self, 'Credentials', 'USERNAME'))
+        login_page.enter_password(parse_config(self, 'Credentials', 'PASSWORD'))
+        login_page.click_login_button()
         homepage = HomePage(driver)
         try:
             homepage.click_logout_button()
         except NoSuchElementException:
             print("Login Failed")
-        time.sleep(2)
+
 
     @classmethod
     def tearDownClass(cls):
