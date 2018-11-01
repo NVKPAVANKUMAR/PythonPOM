@@ -1,0 +1,6 @@
+html-TestRunner == 1.1.2
+pyunitreport == 0.1.4
+beautifulsoup4 == 4.6.3
+pytest == 3.7.4
+configparser == 3.5.0
+selenium == 3.13.0
