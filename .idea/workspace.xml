@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae170b9c-09c9-4047-b034-c6f586147cd6" name="Default Changelist" comment="" />
+    <list default="true" id="ae170b9c-09c9-4047-b034-c6f586147cd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/PythonPOM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonPOM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/geckodriver.log" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,37 +17,40 @@
     <session id="1051828911">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="1" />
-          <entry key="py" value="9" />
+          <entry key="md" value="1" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Ini" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Python Console" value="10" />
           <entry key="dummy" value="11" />
           <entry key="ini" value="40" />
-          <entry key="py" value="1760" />
+          <entry key="py" value="1805" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="40" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="1760" />
+          <entry key="Python" value="1815" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -53,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/loginPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="108">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding>
                 <marker date="1540734702283" expanded="true" signature="57:62" ph="..." />
                 <marker date="1540734702283" expanded="true" signature="351:360" ph="..." />
@@ -75,12 +83,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/loginTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="189">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1540740408924" expanded="true" signature="458:463" ph="..." />
-                <marker date="1540740408924" expanded="true" signature="458:467" ph="..." />
+                <marker date="1540745665914" expanded="true" signature="458:463" ph="..." />
+                <marker date="1540745665914" expanded="true" signature="458:467" ph="..." />
               </folding>
             </state>
           </provider>
@@ -123,6 +131,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -144,11 +155,13 @@
     <option name="width" value="1285" />
     <option name="height" value="675" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,14 +198,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\npava\PycharmProjects\PythonPOM\Tests" />
+      <recent name="C:\Users\npava\PycharmProjects\PythonPOM" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\npava\PycharmProjects\PythonPOM\Page" />
       <recent name="C:\Users\npava\PycharmProjects\PythonPOM\Drivers" />
     </key>
   </component>
@@ -266,7 +283,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for loginTest.LoginTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for Tests.loginTest.LoginTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonPOM" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,11 +294,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;loginTest.LoginTest&quot;" />
+      <option name="_new_target" value="&quot;Tests.loginTest.LoginTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for loginTest.LoginTest.test_login_valid" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for Tests.loginTest.LoginTest.test_login_valid" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonPOM" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,7 +309,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;loginTest.LoginTest.test_login_valid&quot;" />
+      <option name="_new_target" value="&quot;Tests.loginTest.LoginTest.test_login_valid&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -314,8 +331,8 @@
     <list>
       <item itemvalue="Python tests.logintests" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python tests.pytest for loginTest.LoginTest" />
-      <item itemvalue="Python tests.pytest for loginTest.LoginTest.test_login_valid" />
+      <item itemvalue="Python tests.pytest for Tests.loginTest.LoginTest" />
+      <item itemvalue="Python tests.pytest for Tests.loginTest.LoginTest.test_login_valid" />
       <item itemvalue="Python tests.pytest in loginTest.py" />
       <item itemvalue="Python.ConfigParser" />
     </list>
@@ -323,9 +340,9 @@
       <list>
         <item itemvalue="Python tests.pytest in loginTest.py" />
         <item itemvalue="Python.ConfigParser" />
-        <item itemvalue="Python tests.pytest for loginTest.LoginTest" />
+        <item itemvalue="Python tests.pytest for Tests.loginTest.LoginTest" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python tests.pytest for loginTest.LoginTest.test_login_valid" />
+        <item itemvalue="Python tests.pytest for Tests.loginTest.LoginTest.test_login_valid" />
       </list>
     </recent_temporary>
   </component>
@@ -343,18 +360,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_loginTest_py - 2018.10.28 at 19h 31m 07s.xml">
-      <configuration name="pytest in loginTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_loginTest_py - 2018.10.28 at 19h 37m 15s.xml">
-      <configuration name="pytest in loginTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_loginTest_py - 2018.10.28 at 19h 38m 36s.xml">
-      <configuration name="pytest in loginTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_loginTest_py - 2018.10.28 at 20h 12m 03s.xml">
-      <configuration name="pytest in loginTest.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_loginTest_py - 2018.10.28 at 20h 13m 44s.xml">
       <configuration name="pytest in loginTest.py" configurationId="tests" />
     </history-entry>
@@ -373,25 +378,37 @@
     <history-entry file="pytest_in_loginTest_py - 2018.10.28 at 20h 54m 45s.xml">
       <configuration name="pytest in loginTest.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_loginTest_py - 2018.10.28 at 21h 46m 21s.xml">
+      <configuration name="pytest in loginTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_loginTest_py - 2018.10.28 at 21h 52m 49s.xml">
+      <configuration name="pytest in loginTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_loginTest_py - 2018.10.28 at 21h 57m 07s.xml">
+      <configuration name="pytest in loginTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_loginTest_py - 2018.10.28 at 22h 04m 45s.xml">
+      <configuration name="pytest in loginTest.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17986578" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.7691218" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6147309" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.8073654" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.76628894" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -404,20 +421,18 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Tests/test.py" />
+    <entry file="file://$PROJECT_DIR$/Utility/ConfigParser.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/markupsafe/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Conf/config.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utility/ConfigParser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -447,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/loginPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="108">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
             <marker date="1540734702283" expanded="true" signature="57:62" ph="..." />
             <marker date="1540734702283" expanded="true" signature="351:360" ph="..." />
@@ -456,21 +471,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/markupsafe/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+    <entry file="file://$PROJECT_DIR$/Tests/.pytest_cache/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Page/homePage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/loginTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1540740408924" expanded="true" signature="458:463" ph="..." />
-            <marker date="1540740408924" expanded="true" signature="458:467" ph="..." />
+            <marker date="1540745665914" expanded="true" signature="458:463" ph="..." />
+            <marker date="1540745665914" expanded="true" signature="458:467" ph="..." />
           </folding>
         </state>
       </provider>
