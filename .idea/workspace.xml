@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae170b9c-09c9-4047-b034-c6f586147cd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Locators/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestRunner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/loginTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/loginTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,11 +69,8 @@
       <file leaf-file-name="loginTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/loginTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1500">
+              <caret line="70" column="12" lean-forward="true" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -192,12 +184,12 @@
         <option value="$PROJECT_DIR$/Locators/locators.py" />
         <option value="$PROJECT_DIR$/pages/Moolde_Sandbox_loginPage.py" />
         <option value="$PROJECT_DIR$/TestRunner.py" />
-        <option value="$PROJECT_DIR$/Tests/loginTest.py" />
         <option value="$PROJECT_DIR$/pages/Moodle_Sandbox_homePage.py" />
+        <option value="$PROJECT_DIR$/Tests/loginTest.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="569" />
     <option name="y" value="120" />
     <option name="width" value="1285" />
@@ -245,12 +237,6 @@
               <item name="PythonPOM" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPOM" type="462c0819:PsiDirectoryNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonPOM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonPOM" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="test-reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonPOM" type="b2602c69:ProjectViewProjectNode" />
@@ -412,9 +398,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="logintests - 2018.10.30 at 19h 29m 09s.xml">
-      <configuration name="logintests" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_loginTest_py - 2018.10.31 at 16h 43m 15s.xml">
       <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
@@ -442,6 +425,9 @@
     <history-entry file="py_test_in_loginTest_py - 2018.10.31 at 20h 02m 21s.xml">
       <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_loginTest_py - 2018.10.31 at 20h 04m 59s.xml">
+      <configuration name="py.test in loginTest.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -449,11 +435,11 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014641" side_tool="true" weight="0.64409447" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.5984252" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.5984252" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49926794" weight="0.7889764" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21156661" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21156661" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32755905" />
@@ -481,9 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,11 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/loginTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1500">
+          <caret line="70" column="12" lean-forward="true" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,4 @@
 import json
-import time
 import unittest
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -9,7 +8,7 @@ from pages.loginPage import LoginPage
 from pages.Moodle_Sandbox_homePage import Moodle_HomePage
 from pages.Moolde_Sandbox_loginPage import Moodle_LoginPage
 import configparser
-import configuration.config as config
+import configuration.config as config_data
 
 
 def parse_config(self, header, parameter):
@@ -63,10 +62,10 @@ class LoginTest(unittest.TestCase):
     #  parsing data via built-in data structure
     def test03_login_moodle_sandbox(self):
         driver = self.driver
-        driver.get(config.CREDENTIALS['url'])
+        driver.get(config_data.CREDENTIALS['url'])
         login_page = Moodle_LoginPage(driver)
-        login_page.enter_username(config.CREDENTIALS['username'])
-        login_page.enter_password(config.CREDENTIALS['password'])
+        login_page.enter_username(config_data.CREDENTIALS['username'])
+        login_page.enter_password(config_data.CREDENTIALS['password'])
         login_page.click_login_button()
         homepage = Moodle_HomePage(driver)
         try:
