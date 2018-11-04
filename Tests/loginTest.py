@@ -11,13 +11,13 @@ import configparser
 import configuration.config as config_data
 
 
-def parse_config(self, header, parameter):
+def parse_config(header, parameter):
     conf = configparser.ConfigParser()
     conf.read('configuration/config.ini')
     return conf.get(header, parameter)
 
 
-def read_json(self, data_source):
+def read_json(data_source):
     with open(data_source) as datafile:
         data = json.load(datafile)
         return data
@@ -36,7 +36,7 @@ class LoginTest(unittest.TestCase):
     #  parsing data via JSON
     def test01_login_valid(self):
         driver = self.driver
-        data = read_json(self, "configuration/config.json")
+        data = read_json("configuration/config.json")
         driver.get(data['CREDENTIALS']['URL'])
         login_page = LoginPage(driver)
         login_page.enter_username(data['CREDENTIALS']['USERNAME'][1])
@@ -48,10 +48,10 @@ class LoginTest(unittest.TestCase):
     #  parsing data via .ini
     def test02_login_invalid(self):
         driver = self.driver
-        driver.get(parse_config(self, 'Credentials', 'TEST_URL'))
+        driver.get(parse_config('Credentials', 'TEST_URL'))
         login_page = LoginPage(driver)
-        login_page.enter_username(parse_config(self, 'Credentials', 'USERNAME'))
-        login_page.enter_password(parse_config(self, 'Credentials', 'PASSWORD'))
+        login_page.enter_username(parse_config('Credentials', 'USERNAME'))
+        login_page.enter_password(parse_config('Credentials', 'PASSWORD'))
         login_page.click_login_button()
         homepage = HomePage(driver)
         try:
