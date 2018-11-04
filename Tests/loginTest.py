@@ -13,9 +13,9 @@ import configuration.config as config
 
 
 def parse_config(self, header, parameter):
-    config = configparser.ConfigParser()
-    config.read('configuration/config.ini')
-    return config.get(header, parameter)
+    conf = configparser.ConfigParser()
+    conf.read('configuration/config.ini')
+    return conf.get(header, parameter)
 
 
 def read_json(self, data_source):
