@@ -5,8 +5,8 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.chrome.options import Options
 from pages.homePage import HomePage
 from pages.loginPage import LoginPage
-from pages.Moodle_Sandbox_homePage import Moodle_HomePage
-from pages.Moolde_Sandbox_loginPage import Moodle_LoginPage
+from pages.Moodle_Sandbox_homePage import MoodleHomePage
+from pages.Moolde_Sandbox_loginPage import MoodleLoginPage
 import configparser
 import configuration.config as config_data
 
@@ -63,11 +63,11 @@ class LoginTest(unittest.TestCase):
     def test03_login_moodle_sandbox(self):
         driver = self.driver
         driver.get(config_data.CREDENTIALS['url'])
-        login_page = Moodle_LoginPage(driver)
+        login_page = MoodleLoginPage(driver)
         login_page.enter_username(config_data.CREDENTIALS['username'])
         login_page.enter_password(config_data.CREDENTIALS['password'])
         login_page.click_login_button()
-        homepage = Moodle_HomePage(driver)
+        homepage = MoodleHomePage(driver)
         try:
             homepage.click_logout_button()
         except NoSuchElementException:

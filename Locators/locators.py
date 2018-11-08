@@ -14,4 +14,6 @@ class Locators:
 
     # Moodle_sandbox Home page objects
     admin_user_dropdown = 'dropdown-1'
-    logout_option = '//*[@id="action-menu-1-menu"]/a[6]'
+    logout_option = '#actionmenuaction-6'
+
+

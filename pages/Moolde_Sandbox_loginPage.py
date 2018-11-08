@@ -1,7 +1,7 @@
 from Locators.locators import Locators
 
 
-class Moodle_LoginPage:
+class MoodleLoginPage:
     def __init__(self, driver):
         self.driver = driver
 
