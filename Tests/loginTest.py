@@ -29,7 +29,7 @@ class LoginTest(unittest.TestCase):
     def setUpClass(cls):
         chrome_options = Options()
         chrome_options.add_argument("--headless")
-        cls.driver = webdriver.Chrome(executable_path='Drivers/chromedriver')
+        cls.driver = webdriver.Chrome(executable_path='Drivers/chromedriver', chrome_options=chrome_options)
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
