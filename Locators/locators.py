@@ -15,5 +15,3 @@ class Locators:
     # Moodle_sandbox Home page objects
     admin_user_dropdown = 'dropdown-1'
     logout_option = '#actionmenuaction-6'
-
-
