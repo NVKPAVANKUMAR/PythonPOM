@@ -9,6 +9,7 @@ from pages.Moodle_Sandbox_homePage import MoodleHomePage
 from pages.Moolde_Sandbox_loginPage import MoodleLoginPage
 import configparser
 import configuration.config as config_data
+from xml.etree import ElementTree as ET
 
 
 def parse_config(header, parameter):
@@ -23,13 +24,19 @@ def read_json(data_source):
         return data
 
 
+def parse_xml_config(key):
+    tree = ET.parse('configuration/config.xml')
+    root = tree.getroot()
+    return root.findall(".//{}".format(key))[0].text
+
+
 class LoginTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
         chrome_options = Options()
         chrome_options.add_argument("--headless")
-        cls.driver = webdriver.Chrome(executable_path='Drivers/chromedriver', chrome_options=chrome_options)
+        cls.driver = webdriver.Chrome(executable_path='Drivers/chromedriver')
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
@@ -69,6 +76,20 @@ class LoginTest(unittest.TestCase):
         login_page = MoodleLoginPage(driver)
         login_page.enter_username(config_data.CREDENTIALS['username'])
         login_page.enter_password(config_data.CREDENTIALS['password'])
+        login_page.click_login_button()
+        homepage = MoodleHomePage(driver)
+        try:
+            homepage.click_logout_button()
+        except NoSuchElementException:
+            print("Login Failed")
+
+    #  parsing data via xml
+    def test04_login_moodle_sandbox_invalid(self):
+        driver = self.driver
+        driver.get(parse_xml_config('url'))
+        login_page = MoodleLoginPage(driver)
+        login_page.enter_username(parse_xml_config('username'))
+        login_page.enter_password(parse_xml_config('password'))
         login_page.click_login_button()
         homepage = MoodleHomePage(driver)
         try:
